@@ -14,7 +14,7 @@
   min-inline-size: 320px;
   min-block-size: 100dvb;
   font-family: var(--main-font-family), sans-serif;
-  font-variation-settings: var(--low-weight);
+  font-variation-settings: 'wght' var(--low-weight); 
   background-image: var(--page-bg);
   background-position: fixed;
   background-size: cover;
@@ -100,7 +100,7 @@
 @supports (text-stroke: 1px var(--shadow-label)) or
   (-webkit-text-stroke: 1px var(--shadow-label)) {
 
-  .section__logo  {
+  .section__logo {
     -webkit-text-stroke: 1px var(--shadow-label);
     text-stroke: 1px var(--shadow-label);
     text-shadow: none;
@@ -128,10 +128,6 @@
 .like-icon {
   inline-size: 39px;
   block-size: 36px;
-}
-
-.heart {
-  
 }
 
 .core {
@@ -341,7 +337,7 @@ dialog[open] {
 }
 
 .dialog__download::backdrop {
- background-color: rgb(0 0 0 / 75%); 
+ background-color: rgb(0 0 0 / 75%);
 }
 
 
@@ -372,20 +368,12 @@ dialog[open] {
   filter: blur(2px);
 }
 
-.img__strategic {
-  
-}
-
 .img__hand {
   filter: invert(100%);
 }
 
 .img__fire {
   filter: blur(2px) contrast(200%) brightness(150%) sepia(80%);
-}
-
-.is-liked {
-  
 }
 
 .card__icon-button:focus {
