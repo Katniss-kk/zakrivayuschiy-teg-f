@@ -1,6 +1,6 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
-  --accent-font-family: 'PressStart2p-Regular';
+  --accent-font-family: 'PressStart2p';
   --main-font-family: 'Inter-Variable';
   --low-weight: 400;
   --bold-weight: 700;
@@ -10,12 +10,12 @@
   --header-text-color: #000000;
   --border-page-child: 2px solid #000000;
   --shadow-label: #ffffff;
-  --page-bg: repeating-linear-gradient(to left, #d3d3d3, transparent 2px),
-  repeating-linear-gradient(to top, #d3d3d3, transparent 2px),
-  repeating-linear-gradient(to top, #e7e7e7, #1a1a1a);
+  --page-bg: repeating-linear-gradient(to right, #d3d3d3, transparent 2px),
+  repeating-linear-gradient(to bottom, #d3d3d3, transparent 2px),
+  linear-gradient(to bottom, #e7e7e7 0%, #e7e7e7 0.01%, #1a1a1a 100%);;
   --color-disket: #fff;
-  --color-core: white;
+  --color-core: transparent;
   --color-contour: black;
-  --color-main-body: #FF0000;
+  --color-main-body: transparent;
   --color-sparks: #FF0000;
 }
