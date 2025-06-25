@@ -16,7 +16,7 @@
   font-family: var(--main-font-family), sans-serif;
   font-variation-settings: "wght" var(--low-weight);
   background-image: var(--page-bg);
-  background-position: fixed;
+  background-attachment: fixed;
   background-size: cover;
   display: grid;
   justify-content: center;
@@ -159,7 +159,6 @@
   z-index: 2;
   color: #ffffff;
   mix-blend-mode: difference;
-  text-transform: initial;
 }
 
 .button__container {
@@ -224,7 +223,6 @@
   column-gap: 20px;
   width: 100%;
   max-width: 293px;
-  margin-block-end: 30px;
 }
 
 .button__text-download {
@@ -241,17 +239,19 @@
 .card__close-button {
   size: 14px;
   line-height: 90%;
-  min-inline-size: 293px;
-  min-block-size: 38px;
+  inline-size: 293px;
+  block-size: 38px;
 }
 
 .dialog__download {
-  min-inline-size: 353px;
+  inline-size: 353px;
+  block-size: 193px;
 }
 
 dialog[open] {
   display: grid;
   justify-content: center;
+  align-items: center;
 }
 
 .dialog__download::backdrop {
