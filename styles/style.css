@@ -16,7 +16,7 @@
   font-family: var(--main-font-family), sans-serif;
   font-variation-settings: "wght" var(--low-weight);
   background-image: var(--page-bg);
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-size: cover;
   display: grid;
   justify-content: center;
