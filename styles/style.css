@@ -55,7 +55,7 @@
 .section {
   display: flex;
   flex-direction: column;
-  margin-block-end: 52px;
+  margin-block-end: 54px;
   background-color: #ffffff;
 }
 
@@ -65,7 +65,7 @@
   font-size: 18px;
   color: #000000;
   padding-block-start: 3px;
-  padding-block-end: 3px;
+  padding-block-end: 5px;
   padding-inline-start: 10px;
   padding-inline-end: 10px;
 }
@@ -77,10 +77,11 @@
 .img {
   display: block;
   margin: 0;
-  height: 100%;
+  block-size: 696px;
   width: 100%;
   object-fit: cover;
   object-position: center;
+  border: 2px solid #000000;
 }
 
 .section__logo {
@@ -107,8 +108,12 @@
 }
 
 .mainText__button {
-  border: 2px solid #000000;
-  padding: 25px;
+  border-right: 2px solid #000000;
+  border-left: 2px solid #000000;
+  border-bottom: 2px solid #000000;
+  padding-block-start: 25px;
+  padding-block-end: 25px;
+  padding-inline: 24px;
 }
 
 .main__text {
@@ -121,7 +126,6 @@
   font-size: 18px;
   line-height: 1.3125rem;
   color: #000;
-  margin-block-start: 2px;
 }
 
 .card__like-button {
@@ -133,8 +137,10 @@
   appearance: none;
   border: none;
   background: none;
-  outline: 2px solid transparent;
+  padding: 0;
+  margin: 0;
   block-size: 35px;
+  outline: 2px solid transparent;
   transition: outline 0.3s linear;
 }
 
@@ -160,7 +166,8 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  margin-block-start: 25px;
+  margin-block-start: 26px;
+  gap: 5px;
 }
 
 .button__style {
@@ -224,6 +231,7 @@
   line-height: 150%;
   font-family: var(--accent-font-family), sans-serif;
   inline-size: 234px;
+  text-transform: uppercase;
 }
 
 .text__download {
@@ -292,6 +300,19 @@ dialog[open] {
     align-content: center;
     inline-size: 306px;
     min-block-size: 84px;
+  }
+
+  .logo {
+    margin-block-start: 120px;
+    font-size: 49px;
+  }
+
+  .header__title {
+    margin-block-end: 120px;
+  }
+
+  .img {
+    block-size: 371px;
   }
 
   .svg__disket {
