@@ -162,6 +162,10 @@
   text-transform: initial;
 }
 
+.button__text-close {
+  text-transform: uppercase;
+}
+
 .button__container {
   display: flex;
   justify-content: flex-end;
