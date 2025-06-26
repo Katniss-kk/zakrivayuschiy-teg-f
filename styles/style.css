@@ -159,6 +159,7 @@
   z-index: 2;
   color: #ffffff;
   mix-blend-mode: difference;
+  text-transform: initial;
 }
 
 .button__container {
